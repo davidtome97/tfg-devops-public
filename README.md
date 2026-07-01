@@ -238,7 +238,16 @@ Running Application
 
 ## Generated CI/CD Pipelines
 
-(Add your screenshots here)
+The platform automatically generates CI/CD pipelines according to the deployment configuration selected by the user.
+
+Example of a generated GitLab CI pipeline executing successfully:
+
+- ✅ Build & Test
+- ✅ SonarCloud Analysis
+- ✅ Docker Image Build & Push
+- ✅ Automated Deployment to AWS EC2
+
+<img width="464" height="162" alt="Captura de pantalla 2026-07-01 a las 14 13 46" src="https://github.com/user-attachments/assets/91d2a71d-da7b-4b0b-86d5-5551dad33872" />
 
 ---
 
