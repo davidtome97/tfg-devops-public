@@ -4,26 +4,26 @@
 
 ### DevOps Automation Platform for AWS using Docker, CI/CD and Cloud Infrastructure
 
-Cloud & DevOps platform that automates CI/CD pipelines and AWS deployments using Docker and modern DevOps practices.
-
 ---
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?logo=ubuntu&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-blue?logo=githubactions)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-Code_Quality-blue?logo=sonarcloud)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+> **Designed to demonstrate practical DevOps workflows including CI/CD automation, containerization, cloud deployments and secure application delivery using AWS.**
+
 </div>
 
-> **Demonstrates practical experience with AWS, Docker, CI/CD automation, deployment pipelines and modern DevOps practices through a real-world project.**
 ---
 
 # 📖 Overview
 
-This project demonstrates practical DevOps and Cloud Engineering skills by automating application deployments on AWS using modern CI/CD practices.
+This project was developed to demonstrate practical DevOps and Cloud Engineering skills by automating application deployments on AWS using modern CI/CD practices.
 
 The objective was to design and develop a complete DevOps platform capable of automating cloud application deployments through a guided deployment wizard.
 
@@ -33,17 +33,29 @@ Unlike a traditional academic project, this application simulates a real DevOps 
 
 ---
 
-## 🎯 Skills Demonstrated
+## 🎯 Core DevOps Skills
 
-- CI/CD Pipeline Design
-- Docker Containerization
-- AWS Cloud Deployment
-- Infrastructure Automation
-- Spring Boot Development
-- SonarCloud Integration
-- GitHub Actions & GitLab CI
-- Secure Configuration Management
-- Multi-database Support
+✔ CI/CD Pipeline Automation
+
+✔ Docker Containerization
+
+✔ AWS Cloud Services
+
+✔ Infrastructure Automation
+
+✔ GitHub Actions & GitLab CI
+
+✔ Secure Configuration Management
+
+✔ Spring Security
+
+✔ SonarCloud Integration
+
+✔ Multi-database Support
+
+✔ Infrastructure as Code (Terraform - Learning)
+
+✔ Linux System Administration
 
 ---
 
@@ -214,6 +226,7 @@ Running Application
 
 - Docker
 - Docker Compose
+- Linux
 - GitHub Actions
 - GitLab CI
 - Jenkins
@@ -339,20 +352,20 @@ The main goals of the project were:
 
 **David Tomé Arnaiz**
 
-Junior Cloud & DevOps Engineer
+🎓 Computer Engineer
 
-AWS Certified Solutions Architect – Associate
+☁ AWS Certified Solutions Architect – Associate
 
-AWS Certified Cloud Practitioner
+☁ AWS Certified Cloud Practitioner
 
-Currently learning **Terraform (Infrastructure as Code)**
+📚 Currently learning **Terraform (Infrastructure as Code)**
 
-LinkedIn:
+🔗 LinkedIn:
 www.linkedin.com/in/david-tome-arnaiz-442729399
 
 
-GitHub Profile:
-https://github.com/davidtome97/tfg-devops-public.git
+💻 GitHub Profile:
+https://github.com/davidtome97
 
 ---
 
