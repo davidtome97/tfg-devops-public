@@ -244,18 +244,10 @@ Running Application
 
 ## 📚 Documentation
 
-- 📄 **Bachelor's Final Thesis (PDF)**  
-  https://github.com/davidtome97/tfg-devops-public/main/docs/memoria/Memoria_TFG.pdf
-
-- 📄 **Curriculum Vitae (PDF)**  
-  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/CV_David_Tome.pdf
-
-- ☁️ **AWS Certified Cloud Practitioner**  
-  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/aws-cloud-practitioner.pdf
-
-- 🏗️ **AWS Certified Solutions Architect – Associate**  
-  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/aws-solutions-architect.pdf
-
+- [📄 Currículum](docs/cv/CV_David_Tome.pdf)
+- [☁️ AWS Certified Cloud Practitioner](docs/cv/aws-cloud-practitioner.pdf)
+- [🏗 AWS Certified Solutions Architect Associate](docs/cv/aws-solutions-architect.pdf)
+- [📚 Memoria completa del TFG](docs/memoria/memoria.pdf)
 
 # 🚀 Running the Project
 
