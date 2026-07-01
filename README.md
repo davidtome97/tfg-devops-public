@@ -2,9 +2,9 @@
 
 # 🚀 DevOps Automation Platform
 
-### Automated CI/CD Deployment Assistant for AWS
+### DevOps Automation Platform for AWS using Docker, CI/CD and Cloud Infrastructure
 
-Bachelor's Final Project focused on automating application deployments using modern DevOps practices.
+Cloud & DevOps platform that automates CI/CD pipelines and AWS deployments using Docker and modern DevOps practices.
 
 ---
 
@@ -18,17 +18,32 @@ Bachelor's Final Project focused on automating application deployments using mod
 
 </div>
 
+> **Demonstrates practical experience with AWS, Docker, CI/CD automation, deployment pipelines and modern DevOps practices through a real-world project.**
 ---
 
 # 📖 Overview
 
-This project was developed as my Bachelor's Final Project in Computer Engineering at the University of Burgos.
+This project demonstrates practical DevOps and Cloud Engineering skills by automating application deployments on AWS using modern CI/CD practices.
 
 The objective was to design and develop a complete DevOps platform capable of automating cloud application deployments through a guided deployment wizard.
 
 The platform allows developers to configure an application, select deployment technologies and automatically generate the resources required to deploy it using modern CI/CD workflows.
 
 Unlike a traditional academic project, this application simulates a real DevOps workflow by integrating cloud services, containerization, code quality analysis and deployment automation.
+
+---
+
+## 🎯 Skills Demonstrated
+
+- CI/CD Pipeline Design
+- Docker Containerization
+- AWS Cloud Deployment
+- Infrastructure Automation
+- Spring Boot Development
+- SonarCloud Integration
+- GitHub Actions & GitLab CI
+- Secure Configuration Management
+- Multi-database Support
 
 ---
 
@@ -253,10 +268,10 @@ Example of a generated GitLab CI pipeline executing successfully:
 
 ## 📚 Documentation
 
-- [📄 Currículum](docs/cv/CV_David_Tome.pdf)
+- [📄 Curriculum Vitae](docs/cv/CV_David_Tome.pdf)
 - [☁️ AWS Certified Cloud Practitioner](docs/cv/aws-cloud-practitioner.pdf)
 - [🏗 AWS Certified Solutions Architect Associate](docs/cv/aws-solutions-architect.pdf)
-- [📚 Memoria completa del TFG](docs/memoria/memoria.pdf)
+- [📚 Bachelor's Final Thesis](docs/memoria/memoria.pdf)
 
 # 🚀 Running the Project
 
@@ -311,13 +326,12 @@ The main goals of the project were:
 
 # 📈 Future Improvements
 
-- Kubernetes support
-- Terraform integration
-- Ansible integration
+- Kubernetes orchestration
+- Terraform infrastructure provisioning
+- Ansible automation
 - Monitoring with Prometheus & Grafana
-- Helm Charts
-- Multi-cloud deployment
-- Automated Infrastructure as Code
+- Helm charts
+- Multi-cloud deployments
 
 ---
 
@@ -325,7 +339,7 @@ The main goals of the project were:
 
 **David Tomé Arnaiz**
 
-Computer Engineer
+Junior Cloud & DevOps Engineer
 
 AWS Certified Solutions Architect – Associate
 
@@ -337,7 +351,7 @@ LinkedIn:
 www.linkedin.com/in/david-tome-arnaiz-442729399
 
 
-GitHub:
+GitHub Profile:
 https://github.com/davidtome97/tfg-devops-public.git
 
 ---
