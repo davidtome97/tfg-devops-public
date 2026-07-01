@@ -223,29 +223,22 @@ Running Application
 
 ## Deployment Wizard
 
-(Add your screenshots here)
+<img width="1352" height="798" alt="Captura de pantalla 2026-07-01 a las 14 03 15" src="https://github.com/user-attachments/assets/f344b8a5-9b3e-43a9-bf42-7b8843a31249" />
+
 
 ---
 
 ## Dashboard
 
-(Add your screenshots here)
+<img width="1352" height="765" alt="Captura de pantalla 2026-07-01 a las 14 04 14" src="https://github.com/user-attachments/assets/74f092a8-ecf3-43b6-a67c-40bf2eea4a1b" />
+<img width="1352" height="765" alt="Captura de pantalla 2026-07-01 a las 14 05 01" src="https://github.com/user-attachments/assets/6c2e0a72-1773-4619-902e-df7c02277890" />
+
 
 ---
 
 ## Generated CI/CD Pipelines
 
 (Add your screenshots here)
-
----
-
-# 🎥 Demonstration
-
-Watch the project demonstration:
-
-▶ **Demo Video**
-
-(Add YouTube link)
 
 ---
 
@@ -335,10 +328,11 @@ AWS Certified Cloud Practitioner
 Currently learning **Terraform (Infrastructure as Code)**
 
 LinkedIn:
-(Add link)
+www.linkedin.com/in/david-tome-arnaiz-442729399
+
 
 GitHub:
-(Add link)
+https://github.com/davidtome97/tfg-devops-public.git
 
 ---
 
