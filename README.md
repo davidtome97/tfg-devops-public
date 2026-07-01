@@ -242,15 +242,20 @@ Running Application
 
 ---
 
-# 📚 Documentation
+## 📚 Documentation
 
-- 📄 Final Degree Thesis
-- 📄 Project Documentation
-- 📄 Curriculum Vitae
-- ☁ AWS Certified Cloud Practitioner
-- 🏗 AWS Certified Solutions Architect Associate
+- 📄 **Bachelor's Final Thesis (PDF)**  
+  https://github.com/davidtome97/tfg-devops-public/main/docs/memoria/Memoria_TFG.pdf
 
----
+- 📄 **Curriculum Vitae (PDF)**  
+  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/CV_David_Tome.pdf
+
+- ☁️ **AWS Certified Cloud Practitioner**  
+  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/aws-cloud-practitioner.pdf
+
+- 🏗️ **AWS Certified Solutions Architect – Associate**  
+  https://github.com/davidtome97/tfg-devops-public/main/docs/cv/aws-solutions-architect.pdf
+
 
 # 🚀 Running the Project
 
