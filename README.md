@@ -1,68 +1,186 @@
-# Sistema de Gestión y Asistente de Despliegues CI/CD en AWS
+<div align="center">
 
-En un entorno empresarial donde la velocidad, la calidad y la capacidad de adaptación marcan la diferencia, la adopción de prácticas DevOps se ha convertido en un factor clave para competir con éxito. La integración entre desarrollo y operaciones, junto con la automatización de procesos, permite a las organizaciones acelerar la entrega de software, mejorar su fiabilidad y responder de forma ágil a las demandas del mercado.  
-<img width="878" height="497" alt="Captura de pantalla 2026-05-14 a las 12 52 16" src="https://github.com/user-attachments/assets/b55d5b86-ca82-4490-88be-8d354704fbf5" />
+# 🚀 DevOps Automation Platform
 
-Este proyecto nace con el objetivo de trasladar estos principios a un entorno práctico y aplicable, ofreciendo una solución integral para la gestión y automatización de despliegues en la nube. Se trata de un sistema que simula escenarios reales de producción, facilitando la creación y configuración de aplicaciones y generando automáticamente los recursos necesarios para su despliegue mediante pipelines CI/CD.
+### Automated CI/CD Deployment Assistant for AWS
 
-A través de un asistente guiado, la plataforma permite a las empresas definir parámetros clave, como proveedores de integración continua, motores de bases de datos o variables de entorno,  adaptando los despliegues a diferentes necesidades sin modificar el código base. Esto reduce la complejidad operativa y mejora la consistencia en los entornos de desarrollo y producción. 
-El valor diferencial de esta solución reside en la integración de tecnologías clave del ecosistema DevOps, como contenedores, automatización CI/CD y despliegue en entornos cloud (AWS), junto con herramientas de control de calidad y gestión de configuración. Todo ello en un único sistema orientado tanto a fines educativos como a su posible adopción en contextos empresariales reales. 
-
-Además, durante el desarrollo de este Trabajo de Fin de Grado se ha reforzado la especialización en tecnologías cloud mediante la obtención de certificaciones oficiales de AWS, concretamente AWS Certified Cloud Practitioner y AWS Certified Solutions Architect – Associate, lo que garantiza un enfoque alineado con estándares profesionales y buenas prácticas del sector.
-En definitiva, este proyecto representa un ejemplo práctico de cómo las organizaciones pueden evolucionar hacia modelos más eficientes, automatizados y escalables, alineando la tecnología con los objetivos estratégicos del negocio.
+Bachelor's Final Project focused on automating application deployments using modern DevOps practices.
 
 ---
 
-## 🎥 Vídeo demostración
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-blue?logo=githubactions)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![SonarCloud](https://img.shields.io/badge/SonarCloud-Code_Quality-blue?logo=sonarcloud)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-📹 Explicación breve del proyecto y funcionamiento de la aplicación:
-
-[▶ Ver vídeo demostración](docs/video/video_explicacion.mp4)
-
----
-
-## 📄 Documentación y certificaciones
-
-- [📄 Currículum](docs/cv/CV_David_Tome.pdf)
-- [☁️ AWS Certified Cloud Practitioner](docs/cv/aws-cloud-practitioner.pdf)
-- [🏗 AWS Certified Solutions Architect Associate](docs/cv/aws-solutions-architect.pdf)
-- [📚 Memoria completa del TFG](docs/memoria/Memoria_TFG.pdf)
+</div>
 
 ---
 
-## 🚀 Descripción del proyecto
+# 📖 Overview
 
-Esta aplicación web implementa un **asistente de despliegues** que permite **crear y configurar aplicaciones** y generar los recursos necesarios para su **despliegue automatizado en la nube**.
+This project was developed as my Bachelor's Final Project in Computer Engineering at the University of Burgos.
 
-El objetivo del proyecto es integrar en un único sistema conceptos de:
-- Cloud Computing
-- Integración y despliegue continuo (CI/CD)
-- Contenedores
-- Gestión de configuración
-- Calidad del código
+The objective was to design and develop a complete DevOps platform capable of automating cloud application deployments through a guided deployment wizard.
 
-El sistema está pensado con un **enfoque educativo y demostrativo**, simulando flujos reales utilizados en entornos profesionales.
+The platform allows developers to configure an application, select deployment technologies and automatically generate the resources required to deploy it using modern CI/CD workflows.
+
+Unlike a traditional academic project, this application simulates a real DevOps workflow by integrating cloud services, containerization, code quality analysis and deployment automation.
 
 ---
 
-## 🧭 Asistente de despliegues
+# ✨ Main Features
 
-El núcleo de la aplicación es un **wizard de despliegue por pasos**, que guía al usuario durante el proceso de creación y configuración de una aplicación.
+✅ Deployment Wizard
 
-Durante este proceso se pueden definir:
-- Nombre y características de la aplicación
-- Proveedor CI/CD
-- Motor de base de datos
-- Variables de entorno necesarias para el despliegue
-- Recursos de configuración asociados
-
-El asistente permite adaptar el despliegue a distintos escenarios sin modificar el código base del sistema.
+Configure applications through a step-by-step assistant.
 
 ---
 
-## 🧩 Tecnologías utilizadas
+✅ CI/CD Pipeline Generation
 
-### 🔧 Backend
+Automatically generate deployment configurations for:
+
+- GitHub Actions
+- GitLab CI
+- Jenkins
+
+---
+
+✅ Docker Integration
+
+Generate Docker and Docker Compose configuration automatically.
+
+---
+
+✅ AWS Deployment
+
+Supports deployment using:
+
+- Amazon EC2
+- Amazon ECR
+- IAM
+- Security Groups
+
+---
+
+✅ Multi Database Support
+
+Choose between:
+
+- PostgreSQL
+- MySQL
+- MongoDB
+
+---
+
+✅ Environment Configuration
+
+Supports different environments:
+
+- Local
+- Production
+
+using separated configuration files.
+
+---
+
+✅ Code Quality
+
+Integration with SonarCloud for automatic static code analysis.
+
+---
+
+✅ Security
+
+Implements:
+
+- Spring Security
+- Authentication
+- Environment variables
+- Secrets management
+- Secure deployment configuration
+
+---
+
+# 🏗 Architecture
+
+The application follows a layered architecture based on Spring Boot.
+
+```text
+                User
+                  │
+                  ▼
+        Deployment Wizard
+                  │
+                  ▼
+            Spring Boot
+                  │
+     ┌────────────┼────────────┐
+     ▼            ▼            ▼
+ Database     Docker      CI/CD Providers
+                              │
+          GitHub Actions / GitLab / Jenkins
+                              │
+                              ▼
+                         AWS Deployment
+```
+
+---
+
+# 🔄 DevOps Workflow
+
+The generated deployment process follows a modern DevOps workflow.
+
+```text
+Developer
+
+↓
+
+Git Repository
+
+↓
+
+GitHub Actions
+
+↓
+
+Build
+
+↓
+
+Tests
+
+↓
+
+SonarCloud Analysis
+
+↓
+
+Docker Image
+
+↓
+
+Amazon ECR
+
+↓
+
+Amazon EC2
+
+↓
+
+Running Application
+```
+
+---
+
+# 🛠 Technologies
+
+## Backend
+
 - Java 17
 - Spring Boot
 - Spring MVC
@@ -70,183 +188,160 @@ El asistente permite adaptar el despliegue a distintos escenarios sin modificar 
 - Spring Data JPA
 - Thymeleaf
 
-### 🗄️ Bases de datos
+## Databases
+
 - PostgreSQL
 - MySQL
 - MongoDB
-- H2 (entorno de desarrollo)
+- H2
 
-### 🗄️ Migraciones
-- Flyway (para bases de datos relacionales)
+## DevOps
 
-### 🐳 Contenedores y despliegue
 - Docker
 - Docker Compose
+- GitHub Actions
+- GitLab CI
+- Jenkins
+
+## Cloud
+
 - AWS EC2
+- AWS ECR
+- IAM
 
-### 🔄 CI/CD
-- GitHub Actions
-- GitLab CI
-- Jenkins
+## Code Quality
 
-### 🔍 Calidad de código
-- Sonar (análisis estático de código)
+- SonarCloud
 
----
+## Database Versioning
 
-## 🗄️ Motores de base de datos soportados
-
-Al crear una aplicación desde el asistente de despliegue, el usuario puede seleccionar el **motor de base de datos** que desea utilizar.
-
-Motores disponibles:
-- PostgreSQL
-- MySQL
-- MongoDB
-
-Esta selección condiciona la configuración generada para el despliegue, tanto en entornos locales como remotos.
+- Flyway
 
 ---
 
-## 📦 Generación de recursos de despliegue
+# 📸 Screenshots
 
-Una vez configurada la aplicación, el sistema permite obtener los recursos necesarios para su despliegue mediante dos opciones:
+## Deployment Wizard
 
-### 🔹 Proyecto demo
-Se puede descargar un **proyecto de ejemplo**, que incluye:
-- Estructura base de la aplicación
-- Configuración de base de datos
-- Archivos Docker
-- Archivos de configuración CI/CD según el proveedor seleccionado
-
-### 🔹 Archivos de configuración
-Alternativamente, se pueden descargar **únicamente los archivos de configuración**, para integrarlos en una aplicación ya existente.
-
-Esta opción permite reutilizar el asistente sin necesidad de utilizar una aplicación demo.
+(Add your screenshots here)
 
 ---
 
-## 📐 Arquitectura del sistema
+## Dashboard
 
-- Aplicación backend desarrollada con Spring Boot
-- Arquitectura en capas (Controller, Service, Repository)
-- Soporte para bases de datos relacionales y no relacionales
-- Migraciones gestionadas con Flyway
-- Contenedorización mediante Docker
-- Despliegue en infraestructura Cloud (AWS EC2)
-- Automatización mediante pipelines CI/CD
-- Configuración separada por entornos
+(Add your screenshots here)
 
 ---
 
-## 🔄 CI/CD y automatización
+## Generated CI/CD Pipelines
 
-El sistema se integra a nivel de API Rest con distintos proveedores de integración y despliegue continuo, seleccionables durante el proceso de configuración.
-Proveedores disponibles:
-
-- GitHub Actions
-- GitLab CI
-- Jenkins
-
-Los archivos generados permiten definir:
-- Pipelines de despliegue
-- Variables de entorno
-- Uso de credenciales y secretos necesarios para el despliegue
+(Add your screenshots here)
 
 ---
 
-## 🧬 Migraciones con Flyway
+# 🎥 Demonstration
 
-Para los motores de base de datos relacionales, el proyecto utiliza **Flyway** para la gestión del esquema de base de datos.
+Watch the project demonstration:
 
-Flyway permite:
-- Versionar cambios en la base de datos
-- Mantener consistencia entre entornos
-- Automatizar la creación y evolución del esquema
+▶ **Demo Video**
 
----
-
-## 🔍 Calidad del código (Sonar)
-
-El proyecto contempla la integración de **Sonar** dentro del flujo CI/CD para el análisis de calidad del código.
-
-El análisis permite evaluar:
-- Calidad del código
-- Posibles errores
-- Vulnerabilidades
-- Deuda técnica
+(Add YouTube link)
 
 ---
 
-## ⚙️ Configuración por entornos
+# 📚 Documentation
 
-La aplicación utiliza distintos ficheros de configuración:
-
-- `application.properties`
-- `application-local.properties`
-- `application-prod.properties`
-
-Esto permite separar correctamente:
-- Desarrollo local
-- Producción
-- Variables sensibles y credenciales
+- 📄 Final Degree Thesis
+- 📄 Project Documentation
+- 📄 Curriculum Vitae
+- ☁ AWS Certified Cloud Practitioner
+- 🏗 AWS Certified Solutions Architect Associate
 
 ---
 
-## 🐳 Ejecución con Docker
+# 🚀 Running the Project
 
-### Requisitos
+## Requirements
+
+- Java 17
 - Docker
 - Docker Compose
+- PostgreSQL (optional)
 
-## 🔐 Seguridad
+Clone repository
 
-La aplicación implementa mecanismos básicos de seguridad orientados a proteger el acceso y la configuración de los despliegues gestionados por el sistema.
+```bash
+git clone https://github.com/davidtome97/tfg-devops-public.git
+```
 
-Las principales medidas de seguridad aplicadas son:
+Run
 
-- Autenticación de usuarios mediante **Spring Security**
-- Protección de rutas y recursos sensibles
-- Separación de la configuración por entornos
-- Gestión de variables sensibles mediante ficheros de configuración y variables de entorno
-- Acceso controlado a las funcionalidades del asistente de despliegue
-
-Estas medidas permiten simular un escenario real de seguridad habitual en aplicaciones backend desplegadas en entornos Cloud.
-
----
-
-## 🎯 Objetivos del proyecto
-
-Los objetivos principales del proyecto son:
-
-- Diseñar un asistente de despliegues guiado
-- Integrar herramientas reales de integración y despliegue continuo
-- Soportar distintos motores de base de datos
-- Automatizar procesos de despliegue en entornos Cloud
-- Aplicar buenas prácticas DevOps
-- Simular un entorno profesional de trabajo
-- Consolidar conocimientos de Cloud Computing
+```bash
+docker compose up
+```
 
 ---
 
-## 📚 Contexto académico
+# 🔐 Security
 
-Este proyecto se desarrolla como **Trabajo Fin de Grado**, con un enfoque práctico orientado a la aplicación de conceptos relacionados con:
+The platform follows several security best practices.
 
-- DevOps
-- CI/CD
-- Cloud Computing
-- Contenedores
-- Automatización
+- User authentication
+- Spring Security
+- Secure environment configuration
+- Secrets management
+- Protected endpoints
+- Environment separation
+- Secure deployment workflow
 
 ---
 
-## 👨‍💻 Autor
+# 🎯 Project Objectives
 
-David Tomé Arnaiz 
-Proyecto desarrollado como **Trabajo Fin de Grado** en la Universidad de Burgos
-Grado en Ingeniería Informática 
+The main goals of the project were:
 
-## License
+- Apply DevOps principles
+- Automate deployment processes
+- Integrate cloud services
+- Generate CI/CD pipelines
+- Support multiple databases
+- Containerize applications
+- Simulate enterprise deployment workflows
+
+---
+
+# 📈 Future Improvements
+
+- Kubernetes support
+- Terraform integration
+- Ansible integration
+- Monitoring with Prometheus & Grafana
+- Helm Charts
+- Multi-cloud deployment
+- Automated Infrastructure as Code
+
+---
+
+# 👨‍💻 Author
+
+**David Tomé Arnaiz**
+
+Computer Engineer
+
+AWS Certified Solutions Architect – Associate
+
+AWS Certified Cloud Practitioner
+
+Currently learning **Terraform (Infrastructure as Code)**
+
+LinkedIn:
+(Add link)
+
+GitHub:
+(Add link)
+
+---
+
+# 📄 License
 
 This project is licensed under the MIT License.
-See the LICENSE file for details.
